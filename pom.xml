@@ -15,4 +15,13 @@
     </dependency>
   </dependencies>
  
-		
+ <distributionManagement>
+    <snapshotRepository>
+      <id>deployment</id>
+      <url>http://192.168.33.102:8081/repository/deploy_test4snap/</url>
+    </snapshotRepository>
+    <repository>
+      <id>deployment</id>
+      <url>http://192.168.33.102:8081/repository/deploy_test4release/</url>
+    </repository>
+ </distributionManagement>		
